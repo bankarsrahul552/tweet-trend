@@ -11,11 +11,11 @@ environment {
     PATH = "/opt/apache-maven-3.9.5/bin:$PATH"
 }
     stages {
-        stage("clone-code") {
-            steps {
-                git branch: 'main', url: 'https://github.com/bankarsrahul552/tweet-trend.git'
-            }
-        }
+//        stage("clone-code") {
+//            steps {
+//                git branch: 'main', url: 'https://github.com/bankarsrahul552/tweet-trend.git'
+//            }
+//        }
         stage("build"){
             steps {
                  echo "----------- build started ----------"
